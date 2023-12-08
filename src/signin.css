@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.signin{
+    text-align: center;
+    align-items: center;
+    margin-top: 12%;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+.signin button{
+    width: 50vh;
+    padding: 16px;
+    margin-top: 10px;
+    background-color: rgb(230, 31, 31);
+    color: white;
+    border: none;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif; 
+}
+.signin #input{
+    width: 50vh;
+    padding: 16px;
+}
+.signin #password{
+    width: 50vh;
+    padding: 16px;
+    margin-top: 10px;
+
+}
+.signin img{
+    width: 150px;
+    margin-left: -1%;
+}
+.signin .span{
+    color: red;
+}
+@media (max-width: 600px) {
+   .signin{
+    width: 300px;
+    margin-left: 13% !important;
+    align-items: center;
+    margin-top: 50%;
+    object-fit: cover;
+   }
+   .logo{
+   }
+   #password{
+    width: 29vh !important;
+   }
+   #input{
+    width: 29vh !important;
+   }
+   .button{
+    width: 29vh !important;
+   }
+  }
